@@ -1,12 +1,12 @@
 import React from 'react';
-import Slider from './components/Slider';
+import HomePage from './pages';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
-      <Slider />
+      <HomePage />
     </>
   );
-}
+};
 
 export default App;
